@@ -1,0 +1,423 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.to-do-item {
+  padding: 10px;
+  border-bottom: 1px solid #201d1d;
+}
+
+.to-do-item:last-child {
+  border-bottom: none;
+}
+
+.to-do-item input {
+  margin-right: 10px;
+}
+
+.to-do-item label {
+  cursor: pointer;
+}
+
+.to-do-item label:hover {
+  text-decoration-line: underline;
+}
+
+#clear-completed-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* border: "0px solid ",
+borderRadius: "20px",
+margin: "center" */
+
+.list-styled {
+
+  background-image: url("manchester-city-black-stadium-logo-m61ch2c9mel1nw8r.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px solid;
+  border-radius: 20px;
+  margin:auto
+}
+
+.text {
+  padding-left: 32%;
+  padding-right: 32%;
+}
+
+.fa-icon:hover {
+  cursor: pointer;
+  animation: spin 1s linear infinite;
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dark{
+  color:#fff;
+  background-color: #333;
+}
+.faTrash-icon:hover {
+  color: red;
+  text-decoration: underline;
+  position: relative;
+}
+
+.text-check {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 50;
+}
+
+.button-add {
+  color: white;
+  right: 0;
+  bottom: 0;
+  background-color: #3b82f6;
+  font-size: 10px;
+  padding: 8px 1rem;
+  border-radius: 0 8px 8px 0;
+  font-weight: medium;
+  transition: none;
+  outline: none
+}
+
+#default-search {
+  font-size: 10px;
+  padding: 8px 100px;
+  outline: none;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.to-do-list li {
+  border-bottom: 1px solid #a7a5a5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.to-do-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 2rem;
+
+}
+
+
+
+.faCheck-icon {
+  color: orange;
+
+
+}
+.faCheck-icon:hover {
+
+  cursor: pointer;
+  animation: spin 1s linear infinite;
+  color: red;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.clear-icon:hover {
+  color: orange;
+  text-decoration-line: underline;
+  cursor: pointer;
+
+}
+
+.clear-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 4px;
+  right: 30%;
+  color: #ffc700;
+
+}
+
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+ .App {
+  text-align: center;
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.border-wrapper::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 78%;
+  opacity: 0.5;
+  background-color: rgb(96, 119, 209);
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.size1{
+font-size: 200px;
+}
+.size2{
+  font-size: 500px;
+  }
+  .font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .color1{
+    color:blue;
+
+  }
+  .color2{
+    color:red;
+
+  }
+  .size1{
+    font-size: 200px;
+    }
+    .size2{
+      font-size: 500px;
+      }
+    .red{
+        color:red;
+    }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+   
+  }
+}
+
+
+
+.App2 {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+.to-do-item {
+  padding: 10px;
+  border-bottom: 1px solid #201d1d;
+}
+.to-do-item:last-child {
+  border-bottom: none;
+}
+.to-do-item input {
+  margin-right: 10px;
+}
+.to-do-item label {
+  cursor: pointer;
+}
+.to-do-item label:hover {
+  text-decoration: underline;
+}
+#clear-completed-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 50%;
+
+  padding-left: 25%;
+  padding-right: 25%;
+   
+}
+.text{
+  padding-left: 32%;
+  padding-right: 32%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
